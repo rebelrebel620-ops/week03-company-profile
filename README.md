@@ -74,27 +74,21 @@ Continuous Improvement
 
 ### Home Page
 
-URL:
-
-/
+URL:127.0.0.1:8000
 
 The Home page contains a hero section, company introduction, featured services, call-to-action button, navigation bar, and footer.
 
 
 ### About Page
 
-URL:
-
-/about
+URL:127.0.0.1:8000/about
 
 The About page contains the company history, mission, vision, core values, and team introduction.
 
 
 ### Services Page
 
-URL:
-
-/services
+URL:127.0.0.1:8000/services
 
 The Services page contains the following six services:
 
@@ -110,9 +104,7 @@ Each service contains a title and description.
 
 ### Contact Page
 
-URL:
-
-/contact
+URL:127.0.0.1:8000/contact
 
 The Contact page contains a contact form, company address, email address, phone number, and social media links.
 
