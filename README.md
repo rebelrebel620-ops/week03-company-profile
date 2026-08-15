@@ -87,43 +87,23 @@ return view('pages.contact');
 }
 Required screenshot: CompanyController.php.
 
-8. Blade Templating Engine
-Blade is Laravel's templating engine. This project uses a reusable layout and reusable navbar/footer components instead of
-duplicating the same navigation and footer code on every page.
-@extends allows a page to use a layout. @section supplies page-specific content. @yield defines where that content
-appears in the layout. @include inserts reusable Blade components such as the navigation bar and footer.
-{{-- resources/views/layouts/app.blade.php --}}
-<body>
-@include('components.navbar')
-<main>
-@yield('content')
-</main>
-@include('components.footer')
-</body>
-{{-- resources/views/pages/home.blade.php --}}
-@extends('layouts.app')
-@section('content')
-<h1>Welcome to NovaByte Solutions</h1>
-<p>Technology solutions for modern businesses.</p>
-@endsection
-
-9. Laravel Folder Structure
+8. Laravel Folder Structure
 week03-company-profile/
-nnn app/
-n nnn Http/
-n nnn Controllers/
-n nnn CompanyController.php
-nnn resources/
-n nnn views/
-n nnn layouts/
-n nnn components/
-n nnn pages/
-nnn routes/
-n nnn web.php
-nnn public/
-nnn screenshots/
-nnn documentation/
-nnn README.md
+app/
+    Http/
+        Controllers/
+            CompanyController.php
+resources/
+    views/
+        layouts/
+        components/
+        pages/
+routes/
+    web.php
+public/
+screenshots/
+documentation/
+README.md
 • app/ — application code such as controllers and models.
 • routes/ — route definitions, including web.php.
 Week 3 Laravel Company Profile — README | Page 4
@@ -132,7 +112,7 @@ Week 3 Laravel Company Profile — README | Page 4
 • bootstrap/ — Laravel application bootstrapping files.
 • config/ — application configuration files.
 
-10. Project File Organization
+9. Project File Organization
 • app/Http/Controllers/CompanyController.php
 • resources/views/layouts/app.blade.php
 • resources/views/components/navbar.blade.php
@@ -143,7 +123,7 @@ Week 3 Laravel Company Profile — README | Page 4
 • resources/views/pages/contact.blade.php
 • routes/web.php
 
-11. GitHub Repository
+10. GitHub Repository
 Repository name: week03-company-profile
 The activity guide requires the repository to be public and to contain at least eight meaningful commits. The following
 nine-commit history is recommended for this completed project:
@@ -163,7 +143,7 @@ git push origin main
 Repeat the add/commit/push process with the appropriate message for each project milestone. Do not combine all milestones into one
 commit if the instructor requires meaningful commit history.
 
-12. Problems Encountered and Solutions
+11. Problems Encountered and Solutions
 Controller namespace / class loading error
 The CompanyController file was checked so that the namespace appears immediately after the opening PHP tag and before
 the class declaration. The file was then saved and the Laravel server was restarted/tested.
@@ -177,7 +157,7 @@ Reusable navigation and footer
 The navbar and footer were moved into resources/views/components and included from the main layout so they do not need
 to be duplicated on every page.
 
-13. Reflection
+12. Reflection
 Developing the Company Profile Website helped me understand how Laravel applies the Model-View-Controller architecture
 in a practical web application. Before working with Laravel, it was easy to think of a web page as one large piece of code.
 Through this project, I learned that separating responsibilities makes an application easier to understand and maintain. In
@@ -201,7 +181,7 @@ result. The same MVC and version-control practices can be applied to larger ente
 also benefit from clear responsibilities, reusable components, organized folders, and a traceable development history.
 Overall, this project gave me a stronger foundation for developing more complex Laravel applications in future activities.
 
-14. Architecture Diagram
+13. Architecture Diagram
 Client (Browser)
 |
 v
@@ -221,22 +201,22 @@ Browser
 Save the final visual architecture diagram in the documentation/ folder. The activity guide allows tools such as Draw.io, Lucidchart, Canva,
 Microsoft Visio, or Figma.
 
-16. Submission Checklist
+14. Submission Checklist
 Week 3 Laravel Company Profile — README | Page 7
-n Four required web pages completed.
-n Laravel routes configured correctly.
-n CompanyController implemented.
-n Reusable Blade layout and components.
-n Responsive navigation and footer.
-n Public GitHub repository.
-n Minimum of 8 meaningful Git commits (this plan uses 9).
-n Complete README.md documentation.
-n Architecture diagram included.
-n Screenshots folder completed.
-n LinkedIn post published.
-n Repository link submitted through the LMS.
+ Four required web pages completed.
+ Laravel routes configured correctly.
+ CompanyController implemented.
+ Reusable Blade layout and components.
+ Responsive navigation and footer.
+ Public GitHub repository.
+ Minimum of 8 meaningful Git commits (this plan uses 9).
+ Complete README.md documentation.
+ Architecture diagram included.
+ Screenshots folder completed.
+ LinkedIn post published.
+ Repository link submitted through the LMS.
 
-17. References
+15. References
 Laravel. (n.d.). Laravel documentation. https://laravel.com/docs
 PHP Documentation Group. (n.d.). PHP documentation. https://www.php.net/docs.php
 MDN Web Docs. (n.d.). MDN Web Docs. https://developer.mozilla.org/
