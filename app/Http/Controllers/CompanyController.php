@@ -24,3 +24,4 @@ class CompanyController extends Controller
         return view('pages.contact');
     }
 }
+//test 1
