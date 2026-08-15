@@ -7,8 +7,8 @@ Mini Project: MP02 – Company Profile Website
 This README is prepared as the project documentation for the Laravel Week 3 laboratory activity. It follows the requirements in the provided Week 3 activity guide, including the four required pages, MVC architecture, reusable Blade components, GitHub requirements, screenshots, problems and solutions, reflection, and references.
 
 1. Project Title
-NovaByte Solutions — Company Profile Website
-NovaByte Solutions is a fictional technology company created for this Laravel MVC project. The website presents the company, its services, background, and contact information through a professional multi-page interface.
+NovaTech Solutions — Company Profile Website
+NovaTech Solutions is a fictional technology company created for this Laravel MVC project. The website presents the company, its services, background, and contact information through a professional multi-page interface.
 
 2. Introduction
 What is a Company Profile Website? A company profile website is a website that introduces an organization to visitors. It commonly presents the company's identity, history, mission, vision, services, team, and contact information. Why businesses need one. A professional online presence helps businesses communicate their identity, explain what they offer, provide contact information, and make their organization easier for potential customers and partners to discover. Purpose of this project. This project demonstrates Laravel's MVC architecture, URL routing, controller logic, reusable Blade layouts/components, and responsive web design.
@@ -220,16 +220,6 @@ v
 Browser
 Save the final visual architecture diagram in the documentation/ folder. The activity guide allows tools such as Draw.io, Lucidchart, Canva,
 Microsoft Visio, or Figma.
-
-15. LinkedIn Portfolio Post
-Week 3 – Client-Server Technologies
-This week, I developed a multi-page Company Profile Website using Laravel's MVC architecture. I implemented routing,
-controllers, and Blade templates to create a clean and organized application while learning how Laravel processes client
-requests and serves dynamic web pages.
-Through this project, I gained a deeper understanding of separation of concerns and reusable web components—essential
-skills for enterprise web development.
-GitHub Repository: INSERT YOUR GITHUB LINK HERE
-#Laravel #MVC #PHP #Blade #GitHub #WebDevelopment #ClientServer #SoftwareEngineering #ComputerScience
 
 16. Submission Checklist
 Week 3 Laravel Company Profile — README | Page 7
